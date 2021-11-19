@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/3d-force-graph@1.70.5/dist/3d-force-graph.min.js"></script>
+        <script src="https://unpkg.com/three@0.130.1/build/three.js"></script>
+        <script src="https://unpkg.com/three-spritetext@1.6.2/dist/three-spritetext.min.js"></script>
+        <script src="https://unpkg.com/three@0.130.1/examples/js/renderers/CSS2DRenderer.js"></script>
+        <link rel="stylesheet" href="network_graph.css">
+    </head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <body bgcolor=#f2efd0>
+        <div bgcolor="white">
+        <div class="head"></div>
+        <!-- <h1 class="head"></h1> -->
+        <div id="3d-graph"></div>
+        <!-- <script src=network_graph.js></script> -->
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
+        <div id="tag" style="border: 1px solid #eee; height: 320px; width:525px;margin:0 auto;"></div>
+
+        <script src=wordCloud.js>
+
+        <script src=full_screen.js></script>
+        <table class="for-table" border="1">
+            <thead>
+                <tr>
+                    <th>相關字</th>
+                    <th>同時出現次數</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <button class="moreButton">Read more</button>
+        <script src=buttom.js></script>
+    </body>
+</html>
